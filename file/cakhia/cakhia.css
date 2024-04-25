@@ -13,9 +13,9 @@
 }
 
 .custom-home-button:hover, .custom-home-button:focus {
-    color: coral;
+    color: powderblue;
     transform: translateY(-2px);
-    box-shadow: 0px 0px 16px rgba(218, 165, 32, 0.500);
+    box-shadow: 0px 0px 16px rgba(176, 224, 230, 0.500);
 }
 
 body, html {

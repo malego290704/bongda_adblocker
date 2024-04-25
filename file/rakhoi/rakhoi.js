@@ -1,6 +1,6 @@
 blockvalid = (url) => {
     clean = url.replace(/[^=&]+=(&|$)/g,"").replace(/&$/,"")
-    return clean.match('cakhia') != null
+    return clean.match('rakhoi') != null
 }
 console.log(blockvalid(window.location.href))
 

@@ -10,26 +10,15 @@
             "js": ["file/cakhia/blocklist.js", "file/cakhia/cakhia.js"],
             "css": ["file/cakhia/cakhia.css"],
             "matches": [
-                "*://*.cakhia27.live/*",
-                "*://*.cakhia28.live/*",
-                "*://*.cakhia29.live/*",
-                "*://*.cakhia20.live/*",
-                "*://*.cakhia21.live/*",
-                "*://*.cakhia22.live/*",
-                "*://*.cakhia23.live/*",
-                "*://*.cakhia24.live/*",
-                "*://*.cakhia25.live/*",
-                "*://*.cakhia26.live/*",
-                "*://*.cakhia27.live/*",
-                "*://*.cakhia28.live/*",
-                "*://*.cakhia29.live/*",
-                "*://*.cakhia30.live/*",
-                "*://*.cakhia31.live/*",
-                "*://*.cakhia32.live/*",
-                "*://*.cakhia33.live/*",
-                "*://*.cakhia34.live/*",
-                "*://*.cakhia35.live/*",
-                "*://*.cakhia36.live/*"
+                "*://*.live/*"
+            ]
+        },
+        {
+            "run_at": "document_end",
+            "js": ["file/cakhia/blocklist.js", "file/rakhoi/rakhoi.js"],
+            "css": ["file/cakhia/cakhia.css"],
+            "matches": [
+                "*://*.tv/*"
             ]
         },
         {
