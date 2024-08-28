@@ -10,7 +10,9 @@
             "js": ["file/cakhia/blocklist.js", "file/cakhia/cakhia.js"],
             "css": ["file/cakhia/cakhia.css"],
             "matches": [
-                "*://*.live/*"
+                "*://*.live/*",
+                "*://*.xyz/*",
+                "*://*.tv/*"
             ]
         },
         {
@@ -23,10 +25,39 @@
         },
         {
             "run_at": "document_end",
+            "js": ["file/cakhia/blocklist.js", "file/caheo/caheo.js"],
+            "css": ["file/cakhia/cakhia.css"],
+            "matches": [
+                "*://*.live/*"
+            ]
+        },
+        {
+            "run_at": "document_end",
             "all_frames": true,
             "js": ["file/cakhia/blocklist.js", "file/cakhia/rkplayer.js"],
             "matches": [
                 "*://*.rkplayer.xyz/*"
+            ]
+        },
+        {
+            "run_at": "document_end",
+            "js": ["file/thapcam/blocklist.js", "file/thapcam/thapcam.js"],
+            "matches": [
+                "*://*.net/*"
+            ]
+        },
+        {
+            "run_at": "document_end",
+            "js": ["file/xoilac/blocklist.js", "file/xoilac/xoilac.js"],
+            "matches": [
+                "*://*.org/*"
+            ]
+        },
+        {
+            "run_at": "document_end",
+            "js": ["file/xoilac/blocklist.js", "file/90phut/90phut.js"],
+            "matches": [
+                "*://*.live/*"
             ]
         }
     ]

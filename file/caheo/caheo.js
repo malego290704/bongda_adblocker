@@ -1,14 +1,10 @@
-cleanlink = (url) => {
-    return url.replace(/[^=&]+=(&|$)/g,"").replace(/&$/,"")
-}
-
 blockvalid = (url) => {
     clean = url.replace(/[^=&]+=(&|$)/g,"").replace(/&$/,"")
-    return clean.match('cakhia') != null
+    return clean.match('caheo') != null
 }
+console.log(blockvalid(window.location.href))
 
 if (blockvalid(window.location.href)) {
-    console.log(`Bongda Adblocker Extension: Detected ${cleanlink(window.location.href)}`)
     banned_tag = blocklist
     for (let element_tag of banned_tag) {
         for (let element of document.querySelectorAll(element_tag)) {

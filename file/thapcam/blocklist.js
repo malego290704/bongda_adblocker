@@ -1,0 +1,1 @@
+blocklist = ['.mmo', '.modal', '.marquee-container', '.social_right', '.mct_-bet-bot', '.title_right', '.page-footer', '.nav-right']
