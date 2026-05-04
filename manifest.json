@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Bongda Adblocker",
     "description": "Adblocker for illegal football websites",
-    "version": "1.0",
+    "version": "1.1",
     "action": {},
     "content_scripts": [
         {
@@ -56,6 +56,13 @@
         {
             "run_at": "document_end",
             "js": ["file/xoilac/blocklist.js", "file/90phut/90phut.js"],
+            "matches": [
+                "*://*.live/*"
+            ]
+        },
+        {
+            "run_at": "document_end",
+            "js": ["file/hoiquan/hoiquan.js"],
             "matches": [
                 "*://*.live/*"
             ]
